@@ -1,5 +1,18 @@
 {
+  "name": "my-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
-    "parcel": "^2.10.3"
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "mongodb": "5.0",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
   }
 }
