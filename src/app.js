@@ -1,4 +1,4 @@
-import { ObjectId } from "bson";
+import { ObjectId } from "mongodb";
 
 console.log('Hello world!');
-// console.log(new ObjectId());
+console.log(new ObjectId());
